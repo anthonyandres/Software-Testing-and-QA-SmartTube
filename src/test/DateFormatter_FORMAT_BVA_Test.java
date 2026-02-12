@@ -28,4 +28,23 @@ public class DateFormatter_FORMAT_BVA_Test {
 		String expected = "";
 		assertEquals(expected, result);
 	}
+
+	@Test
+	public void invalidFormatValidDateTest() {
+		Date validDate = new Date();
+		String invalidFormat = null;
+		String result = DateFormatterFORMAT.format(validDate, invalidFormat);
+		assertEquals(expected, result);
+	}
+	
+	@Test
+	public void invalidFormatInvalidDateTest() {
+		Date invalidDate = null;
+		String invalidFormat = null;
+		String result = DateFormatterFORMAT.format(invalidDate, invalidFormat);
+		String expected = "";
+		assertEquals(expected, result);
+	}	
+
+
 }
