@@ -1,6 +1,6 @@
 # Preface
 
-This repository contains unit testing of various methods within Yuliskov's open source project [SmartTube](https://github.com/yuliskov/SmartTube). Originally this project was done for my class COE891: Software Testing and Quality Assurance.
+This repository contains unit testing of various methods within Yuliskov's open source project [SmartTube](https://github.com/yuliskov/SmartTube).
 
 # Introduction
 
